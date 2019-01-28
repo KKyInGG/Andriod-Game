@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SlidingTiles</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_new_username">Create New Username</string>
+    <string name="create_new_password">Create New Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="welcome_to_sliding_tiles_n_a_puzzle_game_where_you_must_arrange_the_numbers_in_the_correct_order">Welcome To Sliding Tiles   A Puzzle Game where you must arrange the numbers in the correct order</string>
+    <string name="load_saved_game">Load Saved Game</string>
+    <string name="new_game">New Game</string>
+    <string name="save_game">Save Game</string>
+    <string name="log_out">log out</string>
+    <string name="choose_game">Choose Game</string>
+    <string name="welcome_nplease_choose_the_game_you_want_to_play">Welcome! Please choose the game you want to play</string>
+    <string name="view_your_scoreboard">view your scoreboard</string>
+    <string name="please_log_in">Please log in</string>
+    <string name="undo">Undo</string>
+    <string name="view_scoreboard">View Scoreboard</string>
+    <string name="slidingtile">SlidingTile</string>
+</resources>

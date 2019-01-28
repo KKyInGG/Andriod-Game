@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:background= "@drawable/background"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="fall2018.csc2017.gamecentre.slidingtiles.SlidingTilesStartingActivity">
+
+    <TextView
+            android:id="@+id/GameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="174dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="Welcome to Memory Game:\nRemember the numbers and match the cards!"
+            android:textAppearance="@android:style/TextAppearance.Material.Small"
+            android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/StartButton"
+        style="@android:style/Widget.DeviceDefault.Button.Small"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/GameText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="108dp"
+        android:background="@drawable/buttonshape"
+        android:text="New Game"
+        android:textColor="#82C5FF" />
+
+    <Button
+        android:id="@+id/ScoreBoardButton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/StartButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/buttonshape"
+        android:text="View Scoreboard"
+        android:textColor="#82C5FF" />
+
+    <Button
+        android:id="@+id/LoadButton"
+        style="@android:style/Widget.DeviceDefault.Button.Small"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="245dp"
+        android:background="@drawable/buttonshape"
+        android:text="@string/load_saved_game"
+        android:textColor="#82C5FF" />
+
+    <Button
+        android:id="@+id/QuitButton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/ScoreBoardButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/buttonshape"
+        android:text="Quit"
+        android:textColor="#82C5FF" />
+</RelativeLayout>
+
+
