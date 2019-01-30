@@ -1,9 +1,6 @@
 # README - PROJECT SETUP
 ***
 
-## Phase 2 Git repository
-* https://markus.teach.cs.toronto.edu/git/csc207-2018-09-reg/group_0669
-
 ## Project setup instructions
 
 * Please note Java SDK version 8 is required. Ensure you have upgraded before attempting to run our program!
